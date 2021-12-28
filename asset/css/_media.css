@@ -1,0 +1,98 @@
+/* media for viewport 0px or greater*/
+@media(min-width: 0px){
+   
+    header .logo img {
+        width: 15%!important;        
+    }
+    .logo-slogan img {
+        width: 20%!important;        
+        height: auto!important;        
+    }    
+    
+    .header-center img {
+        width: 65%!important;   
+        margin-top: 10px!important;
+        margin-left: 0!important;           
+    }
+    .logo2 span:nth-child(-n+3),
+    .logo3 span:nth-child(-n+3) {
+        font-size: 18px!important;        ;
+    }
+    .logo2 span:nth-child(n+6), .logo3 span:nth-child(n+6){
+        font-size: 13px!important;
+    }
+}
+@media(min-width: 576px){
+    header .logo img {
+        width: 15%!important;        
+    }
+    .logo-slogan img {
+        width: 18%!important;        
+        height: auto!important;      
+    }    
+    .header-center img {
+        width: 65%!important;        
+        margin-top: 10px!important;
+        margin-left: 0!important;  
+    }
+    .logo2 span:nth-child(-n+3),
+    .logo3 span:nth-child(-n+3) {
+        font-size: 13px!important;        ;
+    }
+    .logo2 span:nth-child(n+6), .logo3 span:nth-child(n+6){
+        font-size: 13px!important;
+    }
+}
+@media(min-width: 768px){
+    header .logo img {
+        width: 40%!important;        
+    }
+    .logo-slogan img {
+        width: 18%!important;        
+        height: auto!important;      
+    }    
+    .header-center img {
+        width: 75%!important;        
+        margin-top: 10px!important;
+        margin-left: 0!important;        ;        ;
+    }
+    .logo2 span:nth-child(-n+3),
+    .logo3 span:nth-child(-n+3) {
+        font-size: 15px!important;        ;
+    }
+    .logo2 span:nth-child(n+6), .logo3 span:nth-child(n+6){
+        font-size: 15px!important;
+    }
+}
+@media(min-width: 992px){
+    header .logo img {
+        width: 40%!important;        
+    }    
+    .logo-slogan img {
+        width: 30%!important;        
+        height: auto!important;      
+    }    
+    .header-center img {
+        width: 100%!important;        
+    }
+    .logo2 span:nth-child(-n+3),
+    .logo3 span:nth-child(-n+3) {
+        font-size: 24px!important;
+    }
+    .logo2 span:nth-child(n+6), .logo3 span:nth-child(n+6){
+        font-size: 20px!important;
+    }
+}
+@media(min-width: 1200px){
+    header .logo img {
+        width: 56%!important;                
+    }
+    .logo-slogan img{
+        width: 80%!important;        
+        height: auto!important;                      
+    }
+    .logo2 span:nth-child(-n+3),
+    .logo3 span:nth-child(-n+3) {
+        font-size: 28px!important;        ;
+    }
+}
